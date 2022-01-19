@@ -15,8 +15,6 @@
   <component name="ChangeListManager">
     <list default="true" id="860eb085-8554-4a31-81c2-d574c0671357" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pickerview/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/pickerview/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
