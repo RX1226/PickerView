@@ -1,8 +1,24 @@
-apply plugin: 'com.android.library'
-apply plugin: 'maven-publish'
+plugins{
+    id 'com.android.library'
+    id 'maven-publish'
+}
 
-group='com.github.RX1226'
+def verMajor = 1
+def verMinor = 0
+def verUpdate = 0
 
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.bigkoo.pickerview'
+                artifactId = 'pickerview'
+                version = "${verMajor}.${verMinor}.${verUpdate}"
+            }
+        }
+    }
+}
 ext {
     bintrayRepo = 'maven'
     bintrayName = 'pickerview'   // Has to be same as your library module name
